@@ -1,0 +1,9 @@
+services:
+  client:
+    build: ./weather-app.client
+    ports:
+      - 4200:80
+  api:
+    build: ./weather-app.Server
+    ports:
+      - 5032:80
