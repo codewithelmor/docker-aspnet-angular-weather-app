@@ -1,6 +1,8 @@
 # docker-aspnet-angular-weather-app
 Containerized ASP.NET Angular Weather App
 
+![2023-11-26 00-37-46](https://github.com/codewithelmor/docker-aspnet-angular-weather-app/assets/44918452/8f73f4e9-3108-47ef-835a-63ab5395f556)
+
 ## Web App
 
 Client
