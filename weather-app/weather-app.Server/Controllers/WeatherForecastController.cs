@@ -1,8 +1,11 @@
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using weather_app.Server.Policies;
 
 namespace weather_app.Server.Controllers
 {
     [ApiController]
+    [EnableCors(ControllerPolicy.Cors)]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
